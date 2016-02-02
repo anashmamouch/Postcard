@@ -62,7 +62,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Spain.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y6l-ac-Gao">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="250" y="174" width="80" height="80"/>
+                                    <rect key="frame" x="242" y="174" width="88" height="80"/>
                                 </variation>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IjT-Jz-iIG">
@@ -81,7 +81,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="210" width="226" height="30"/>
+                                    <rect key="frame" x="16" y="210" width="218" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="sendButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HQr-pT-fwC"/>
@@ -104,6 +104,15 @@
                                     <rect key="frame" x="16" y="300" width="314" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeS-zV-gr4">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="181" width="218" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="5gX-lA-PZR"/>
                                 <exclude reference="Ziz-0k-khC"/>
                                 <exclude reference="hNZ-PP-gWF"/>
+                                <exclude reference="ZeS-zV-gr4"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,12 +132,14 @@
                                 <include reference="5gX-lA-PZR"/>
                                 <include reference="Ziz-0k-khC"/>
                                 <include reference="hNZ-PP-gWF"/>
+                                <include reference="ZeS-zV-gr4"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="messageLabel" destination="Ziz-0k-khC" id="ahR-sn-cqY"/>
                         <outlet property="messageTextField" destination="hNZ-PP-gWF" id="2kc-Hn-gle"/>
+                        <outlet property="nameLabel" destination="ZeS-zV-gr4" id="4UO-Pp-Brx"/>
                         <outlet property="nameTextField" destination="IjT-Jz-iIG" id="JlG-RP-XUa"/>
                         <outlet property="sendButton" destination="5gX-lA-PZR" id="eNm-ms-JDb"/>
                     </connections>
