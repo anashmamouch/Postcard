@@ -13,6 +13,9 @@
 		A85C7A591C60E20600D778B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85C7A581C60E20600D778B3 /* Images.xcassets */; };
 		A85C7A5C1C60E20600D778B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A85C7A5A1C60E20600D778B3 /* LaunchScreen.xib */; };
 		A85C7A681C60E20600D778B3 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C7A671C60E20600D778B3 /* PostcardTests.swift */; };
+		A85C7A721C60EB7A00D778B3 /* material.png in Resources */ = {isa = PBXBuildFile; fileRef = A85C7A711C60EB7A00D778B3 /* material.png */; };
+		A85C7A741C60ED5F00D778B3 /* SagradaFamilia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A85C7A731C60ED5F00D778B3 /* SagradaFamilia.jpg */; };
+		A85C7A761C60EEFF00D778B3 /* Spain.png in Resources */ = {isa = PBXBuildFile; fileRef = A85C7A751C60EEFF00D778B3 /* Spain.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		A85C7A611C60E20600D778B3 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85C7A661C60E20600D778B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A85C7A671C60E20600D778B3 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		A85C7A711C60EB7A00D778B3 /* material.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = material.png; sourceTree = "<group>"; };
+		A85C7A731C60ED5F00D778B3 /* SagradaFamilia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpg; sourceTree = "<group>"; };
+		A85C7A751C60EEFF00D778B3 /* Spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spain.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		A85C7A4F1C60E20600D778B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A85C7A751C60EEFF00D778B3 /* Spain.png */,
+				A85C7A731C60ED5F00D778B3 /* SagradaFamilia.jpg */,
+				A85C7A711C60EB7A00D778B3 /* material.png */,
 				A85C7A501C60E20600D778B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +203,10 @@
 			files = (
 				A85C7A571C60E20600D778B3 /* Main.storyboard in Resources */,
 				A85C7A5C1C60E20600D778B3 /* LaunchScreen.xib in Resources */,
+				A85C7A721C60EB7A00D778B3 /* material.png in Resources */,
+				A85C7A741C60ED5F00D778B3 /* SagradaFamilia.jpg in Resources */,
 				A85C7A591C60E20600D778B3 /* Images.xcassets in Resources */,
+				A85C7A761C60EEFF00D778B3 /* Spain.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
